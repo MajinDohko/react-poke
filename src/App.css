@@ -18,6 +18,26 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+form{
+  display: flex;
+  align-items: center;
+  gap:15px;
+  margin:2em;
+  font-size: 1.2em;
+ }
+
+ input{
+  font-size: 1.2em;
+  border-radius: 5px;
+  border:1px solid #ccc
+}
+
+ label{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -33,8 +53,37 @@
   }
 }
 
-.card {
+.pokemon {
   padding: 2em;
+}
+
+.pokemon-characteristics{
+  background-color: rgba(0, 255, 234, 0.527);
+  border: 5px solid rgb(78, 72, 72);
+  border-radius:10px;
+}
+
+.pokemon-abilities{
+  text-align: center;
+}
+.pokemon-abilities h2 {
+  font-size: 1.5em;
+}
+
+.pokemon-abilities ul {
+  list-style: none;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.pokemon-abilities li {
+  font-size: 1.2em;
+}
+
+.pokemon-name img{
+  border-radius: 40px;
+  border: 5px solid red;
 }
 
 .read-the-docs {
